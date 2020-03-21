@@ -1,0 +1,791 @@
+/* ===============================
+/* ===============================
+01. RESET CSS Start here
+================================= */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900');
+/*font-family: 'Roboto', sans-serif;*/
+
+a:hover{text-decoration: none;}
+li{list-style: none;}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+00. RESET CSS END here
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+body{font-size:15px;
+    line-height: 28px; 
+    font-family:'Roboto', sans-serif;
+ }
+ h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 10px 0 10px;
+}
+
+.slide-bg-1{background: url(assets/img/slide-bg-1.jpg);}
+.service-bg-1{background:url(assets/img/service-bg-1.jpg);}
+.service-bg-2{background:url(assets/img/service-bg-2.jpg);}
+.service-bg-3{background:url(assets/img/service-bg-3.jpg);}
+.service-bg-4{background:url(assets/img/service-bg-4.jpg);}
+.service-bg-5{background:url(assets/img/service-bg-5.jpg);}
+.service-bg-6{background:url(assets/img/service-bg-6.jpg);}
+
+.project-bg-1{background:url(assets/img/project-bg-1.jpg);}
+.project-bg-2{background:url(assets/img/project-bg-2.jpg);}
+.project-bg-3{background:url(assets/img/project-bg-3.jpg);}
+.blog-bg-1{background:url(assets/img/blog-bg-1.jpg);}
+.blog-bg-2{background:url(assets/img/blog-bg-2.jpg);}
+.blog-bg-3{background:url(assets/img/blog-bg-3.jpg);}
+
+.team-bg-1{background:url(assets/img/Team-Mem-01.jpg);}
+.team-bg-2{background:url(assets/img/Team-Mem-02.jpg);}
+.team-bg-3{background:url(assets/img/Team-Mem-03.jpg);}
+.team-bg-4{background:url(assets/img/Team-Mem-04.jpg);}
+.team-bg-5{background:url(assets/img/Team-Mem-05.jpg);}
+.team-bg-6{background:url(assets/img/Team-Mem-06.jpg);}
+
+.row-top-space{
+    margin-top: 80px
+}
+.row-spacer-85{
+  margin-top: 50px;
+}
+.border-spacer-85{
+  margin:85px 0;
+  border-top:1px solid #ddd;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+01. HEADER - MENU CSS START here
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.header-top-area {
+  background-color: #222;
+  font-size: 14px;
+    padding: 10px 1px;
+    color: #fff;
+}
+.header-top-area a  {
+  color: #fff;
+  font-size: 15px;
+}
+.header-top-area i.fa {
+  color: #f4bc4d;
+  margin-right: 4px;
+}
+.header-top-area a:hover{
+    text-decoration: none;
+    color: rgba(255, 255, 255, .6)
+}
+.separator {
+    padding: 0px 10px;
+
+}
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.main-menu li {
+    position: relative;
+    display: inline-block;
+}
+.main-menu a {
+    padding: 30px 20px;
+    display: block;
+    text-transform: uppercase;
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+}
+.main-menu li:hover> a {
+    background-color: #f4f4f4;
+}
+.header-search-bar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+02. HEADER - LOGO CSS START here
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.logo {
+    text-transform: uppercase;
+    padding: 17px 0;
+}
+.logo a{
+    color: #494949;
+}
+.logo h1 {
+    font-size: 16px;
+    display: inline-block;
+    border: 3px solid #494949;
+    margin: 5px 0;
+    padding: 10px 15px;
+    font-weight: 700;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+03. SLIDER CSS START here
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.single-slide-item {
+    height: 590px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    color: #fff;
+    font-size: 24px;
+}
+.sslide-item-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.slide-item-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.single-slide-item h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.factorian-btn {
+    font-size: 14px;
+    color: #222;
+    background: #f7be49;
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 10px;
+    transition: .4s;
+}
+.factorian-btn.slide-btn{
+    margin-top: 20px;
+}
+.factorian-btn:hover{
+    background: #333333;
+    color: #fff;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+03.1. SLIDER left right angle CSS START here
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.homepage-slide .owl-nav div {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 22px;
+  font-weight: 400;
+  margin-top: -20px;
+  opacity: .8;
+}
+  .homepage-slide {
+    position: relative;
+  }
+  .homepage-slide .owl-nav div.owl-next {
+    right: 50px;
+    left: auto   
+  }
+
+.homepage-slide .owl-nav div:hover {
+  opacity: 1;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+04. SERVICES Area CSS Start here
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.factorian-content-block-area {
+  padding: 100px 0;
+}
+.single-service-item h3 {
+  margin-top: 20px;
+}
+.single-service-bg {
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+  background-color: #ddd;
+}
+.service-readmore-btn {
+    color: #222;
+    font-weight: 700;
+}
+.service-readmore-btn i{
+    margin-left: 5px;
+}
+
+.single-service-small-item {
+  display: block;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 25px;
+  color: #222;
+}
+.single-service-small-item:hover{
+    color: #222;
+    opacity: .8;
+    text-decoration: none;
+}
+.single-service-small-item img {
+  float: left;
+  margin-right: 20px;
+  background-color: #222;
+}
+.single-service-small-item h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+.single-service-small-item p {
+  line-height: 23px;
+  font-size: 14px;
+  margin: 0px
+}
+.single-service-small-item:last-child{
+    margin-bottom: 0;
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+05. CALL TO ACTION CSS Start here
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.factorian-cta-area {
+  background: #222;
+  padding: 40px 0;
+}
+
+.factorian-cta-area h2 {
+  color: #fff;
+  margin: 0;
+  padding: 12px 0;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+06. WHO WE ARE / ABOUT US Area Start here
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.who-we-are {
+  padding: 0 20px;
+}
+.single-promo-item i.fa {
+    color: #f4bc4d;
+    padding: 3px;
+    border: 2px solid #f4bc4d;
+    border-radius: 50%;
+    float: left;
+    font-weight: 700;
+}
+.single-promo-item h3, .single-promo-item p {
+    margin-left: 42px;
+}
+.single-promo-item h3 {
+    padding: 3px 0 0px;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+07. WHY SHOULD WORKING Area Start here
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+.factorian-content-block-area.section-gray {
+    background-color: #F2F5F7;
+}
+
+.check-list li:before {
+  content : "\f00c";
+  font-family: fontawesome;
+  color: #f4bc4d;
+  margin-right: 15px;  
+}
+
+.check-list {
+    padding: 0;
+    font-weight: 600;
+    margin: 15px 0 0;
+    line-height: 28px;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+08. WORK PROJECT Area Start here
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+    max-width: 450px;
+    margin: auto;
+    margin-bottom: 50px
+}
+
+.box-preview {
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+}
+.single-box-item {
+  color: #222;
+  font-weight: 400;
+  margin-bottom: 30px;
+  display: block;
+}
+.single-box-item h4 {
+  font-weight: 700;
+}
+.single-box-item:hover {
+  opacity: .8;
+  text-decoration: none;
+}
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+09. TESTIMONIAL WORKING Area Start here
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.testimonial-area.factorian-content-block-area {
+  border-top: 1px solid #ddd;
+}
+.testimonial-content i.fa {
+  display: block;
+  font-size: 23px;
+  margin-bottom: 5px;
+}
+
+.single-testimonial-item h4{
+    font-size: 16px ;
+    font-weight:700 ;
+    margin-top: 20px;
+    color: #222;
+ }
+.single-testimonial-item span{
+    font-size: 14px ;
+    font-weight:400 ;
+    display: block;
+    margin-top: 10px;
+    color: #666666;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+12.  FOOTER Area Start here
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.site-footer {
+  background-color: #222;
+}
+.site-footer ul {
+  margin: 0;
+  padding: 0;
+}
+.site-footer, .site-footer ul li a {
+  color: #CACABF;
+}
+.site-footer ul li a:hover{
+    color: #D3BC4D;
+}
+
+.footer-wid-title {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+.site-footer {
+  padding: 50px 0;
+}
+.footer-logo {          
+  font-size: 16px;
+  padding: 12px 30px;
+  background-color: #fff;
+  display: inline-block;
+  color: #222;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.footer-bottom {
+  background-color: #1D1D1D;
+  color: #fff;
+  padding: 22px 0;
+  text-transform: uppercase;
+}
+
+/*======================================*/
+
+.factorian-content-block-area.factorian-bread-cum {
+  padding: 40px;
+}
+.factorian-content-block-area.factorian-bread-cum h2 {
+  margin: 0;
+  padding: 5px 0;
+}
+.factorian-content-block-area.factorian-bread-cum h3 {
+  text-align: right;
+  padding: 23px 0;
+  margin: 0;
+}
+
+.single-team-member {
+  height: 390px;
+  width: 33.333333%;
+  background-size: cover;
+  background-position: center;
+  float: left;
+  position: relative;  
+  overflow: hidden;
+  background-color: #ddd;
+}
+.team-info-hover {
+  color: #fff;
+  padding: 20px;
+  position: absolute;
+  width:100%;
+  bottom: -100px;
+  font-size: 14px;
+background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0) 1%, rgba(0,0,0,0.7) 37%, rgba(0,0,0,1) 100%);
+background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.7) 37%,rgba(0,0,0,1) 100%);
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0) 1%,rgba(0,0,0,0.7) 37%,rgba(0,0,0,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 );
+}
+
+.team-info-hover h3 {
+  margin: 0;
+  padding-bottom: 3px;
+  font-size: 22px;
+}
+.single-team-member:hover .team-info-hover {
+  bottom: 0;
+  transition: .5s;
+}
+
+
+/*======================================*/
+
+.factorian-content-block-area.factorian-service-breadcum {
+  padding: 40px 0;
+}
+.factorian-content-block-area.factorian-service-breadcum h3 {
+  margin: 0;
+  padding: 6px 0;
+}
+
+
+.gallery-lightbox {
+  display: block;
+  position: relative;
+  overflow: hidden;
+   margin-bottom: 30px;
+}
+.gallery-lightbox img {
+  width: 100%;
+ 
+}
+.gallery-lightbox i.fa {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  height: 20px;
+  width: 20px;
+  color: #fff;
+  line-height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  z-index: -1;
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+.gallery-lightbox:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s;
+}
+.gallery-lightbox:hover:after {
+  visibility: visible;
+  opacity: .4;
+
+}
+.row-spacer-45{
+  padding: 45px 0;
+}
+.gallery-lightbox:hover i.fa {
+  opacity: 1;
+  visibility: visible;
+  top: 50%;
+  z-index: 2;
+}
+
+.step-count {
+  width: 35px;
+  height: 35px;
+  border: 2px solid #222;
+  border-radius: 50%;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+  line-height: 32px;
+}
+.single-step-item h3, .single-step-item p {
+  margin-left: 54px;
+  margin-top: 0px;
+
+}
+.single-step-item h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+}
+.single-step-item {
+  margin-top: 40px;
+}
+
+
+.quote-title {
+  color: #fff;
+  background-color: #505050;
+  padding: 10px 15px 30px;
+}
+.quote-title h3 {
+  font-size: 26px;
+  text-transform: capitalize;
+  margin-top: 0px;
+}
+.get-quote {
+  border: 1px solid #ddd;
+  padding: 30px 25px;
+}
+.get-quote label {
+  display: block;
+  color: #222;
+  font-weight: 400;
+}
+
+.get-quote input[type="text"], .get-quote input[type="email"], .get-quote input[type="tel"], .get-quote textarea {
+  border: 1px solid #ddd;
+  width: 100%;
+  padding: 8px;
+}
+.get-quote textarea {
+  height: 120px;
+}
+.get-quote input[type="submit"] {
+  padding: 10px 28px;
+  border: 1px solid #D6A137;
+  background: #F4BC4D;
+  border-bottom: 5px solid #D6A137;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 15px 0 0;
+}
+.get-quote {
+  box-shadow: 0 0px 10px #ccc;
+}
+
+
+
+.contact-img {
+  margin-top: 15px;
+}
+.contact-heading {
+  color: #ABABAB;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 35px 0 15px;
+}
+.contact-link {
+  color: #222222;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.service-readmore-btn{
+  transition: .3s;
+}
+.service-readmore-btn i{
+  transition: .3s;
+}
+
+.service-readmore-btn:hover i{
+  padding-left: 8px;
+}
+
+.service-readmore-btn:hover {
+  color: #F7BE49;
+  margin-right: 10px;
+}
+
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+
+  margin: 100px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% { 
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+  } 50% { 
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+  } 100% { 
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+
+
+.homepage-slides-weapper {
+  position: relative;
+}
+.factorian-slider-preloder-wrapper {
+  position: absolute;
+  z-index: 999;
+  background-color: #F4BC4D;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+}
+.factorian-slider-preloder-wrapper .spinner {
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  margin-top: -20px;
+  margin-left: -20px;
+  background: #494949;
+}
+/*==========================================*/
+.spinner-2 {
+  margin: 100px auto;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  text-align: center;
+  
+  -webkit-animation: sk-rotate 2.0s infinite linear;
+  animation: sk-rotate 2.0s infinite linear;
+}
+
+.dot1, .dot2 {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  background-color: #333;
+  border-radius: 100%;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.dot2 {
+  top: auto;
+  bottom: 0;
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-rotate { 100% { -webkit-transform: rotate(360deg) }}
+@keyframes sk-rotate { 100% { transform: rotate(360deg); -webkit-transform: rotate(360deg) }}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+.site-preloader-wrapper {
+  position: fixed;
+  background: blue;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+}
+.site-preloader-wrapper .spinner-2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: 0;
+  margin-left: -20px;
+  margin-top: -20px;
+}
+
+
+.main-menu ul li ul {
+  position: absolute;
+  top: 108px;
+  z-index: -1;
+  background: #fff;
+  width: 180px;
+  text-align: left;
+  left: 0;
+  opacity: .1;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.main-menu li ul li {
+  display: block;
+}
+.main-menu li ul li a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-transform: none;
+  color:#222222;
+}
+.main-menu li:hover ul {
+  opacity: 1;
+  visibility: visible;
+  top: 88px;
+  z-index: 99;
+}
+
+.responsive-menu-wrapper{
+  display: none;
+}
+
+    .service-area img {
+        width: 100%;
+        height: auto;
+    }
+
+

@@ -1,0 +1,197 @@
+
+
+/*Medium Layout: 1280*/
+@media only screen and (min-width:992px) and (max-width:1200px) {
+    .header-top-area a {
+      font-size: 13px;
+    }
+    .header-top-area {
+      font-size: 13px;
+    }
+    .single-slide-item h2 {
+      font-size: 50px;
+      font-size: 50px;
+    }
+}
+
+/*Tablet Layout: 768px */
+@media only screen and (min-width:768px) and (max-width:991px ) {
+
+     .header-top-area, .header-top-area .text-right {
+      text-align: center;
+    }
+
+    .header-top-area, .header-top-area .text-right, .main-menu ul {
+      text-align: center;
+    }
+    .main-menu ul li a {
+      padding: 10px 20px;
+    }
+    .logo {
+      text-align: center;
+      padding: 10px 0;
+    }
+
+    .main-menu ul li:hover ul {
+      top: 48px;
+    }
+    .main-menu ul li ul {
+      top: 60px;
+    }
+    .single-slide-item {
+    text-align: center;
+    font-size: 17px;
+    }
+
+    .single-slide-item h2 {
+        font-size: 40px;
+    }
+    .factorian-btn {
+    padding: 12px 15px;
+    font-size: 13px;
+    }
+    .single-service-small-item h4 {
+    font-size: 17px;
+    }
+    .single-service-small-item p {
+    font-size: 13px;
+    margin-left: 92px;
+    line-height: 18px;
+    }
+
+    .factorian-cta-area h2 {
+      font-size: 25px;
+    }
+
+    .factorian-cta-area {
+      padding: 25px 0;
+    }
+    .who-we-are {
+    padding: 25px 0;
+    }
+    .why-working-yt {
+    margin-top: 30px;
+    }
+    .footer-wid-title {
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+.site-footer {
+    padding: 25px 0;
+}
+
+}
+
+/*Mobile Layout: 320px*/
+@media only screen and (max-width:767px){
+
+         .header-top-area, .header-top-area .text-right, .header-top-area a {
+      text-align: center;
+      font-size: 10px;
+
+    }
+
+    .header-top-area, .header-top-area .text-right {
+      text-align: center;
+    }
+    .main-menu{
+        display: none;
+    }
+
+    .logo {
+      text-align: left;
+      padding: 10px 0;
+    }
+
+    .single-slide-item {
+    text-align: center;
+    font-size: 17px;
+    }
+
+    .single-slide-item h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .factorian-btn {
+    padding: 12px 15px;
+    font-size: 13px;
+    }
+    .single-service-item {
+    margin-bottom: 30px;
+}
+    .single-service-small-item h4 {
+    font-size: 17px;
+    }
+    .single-service-small-item p {
+    font-size: 13px;
+    margin-left: 92px;
+    line-height: 18px;
+    }
+
+    .factorian-cta-area h2 {
+      font-size: 30px;
+    }
+
+    .factorian-cta-area {
+      padding: 25px 0;
+      text-align: center;
+    }
+    .who-we-are {
+    padding: 25px 0;
+    }
+    .why-working-yt {
+    margin-top: 30px;
+    }
+    .footer-wid-title {
+    margin-top: 25px;
+    margin-bottom: 12px;
+    }
+    .site-footer {
+        padding: 25px 0;
+    }
+    .responsive-menu-wrapper {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin-top: -21px;
+        margin: 0px
+        padding:0;
+    }
+    .main-menu-area {
+        position: relative;
+        z-index: 9;
+    }
+    .responsive-menu-wrapper .slicknav_menu {
+      background: none;
+      margin:0;
+      padding: 0:;
+    }
+    .slicknav_nav {
+      background: #333;
+      width: 200px;
+    }
+    .slicknav_btn {
+      margin: 0;
+    }
+    .homepage-slide .owl-nav div {
+        top: 106%;
+        border-color: #222;
+        color: #222;
+        left: 50%;
+        margin-left: -45px;
+
+    }
+    .homepage-slide .owl-nav div.owl-next{
+        right:50%;
+        margin-right: -45px;
+    }
+
+
+}
+
+/*wide mobile layout : 480px*/
+@media only screen and (min-width: 480px) and (max-width:767px){
+
+    
+}
